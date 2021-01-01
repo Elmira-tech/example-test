@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Function</title>
+</head>
+
+<body>
+	<style>
+		#demo{
+			background-color: darkgrey;
+			border:2px solid black;
+			width:180px;
+			height: 220px;
+		}
+	
+	</style>
+	<div>
+	<div id="demo" onMouseOver="mOver()" onMouseOut="mOut()"> </div>
+	</div>
+	<script>
+    function mOver(){
+		var x=document.getElementById('demo');
+		x.style.backgroundcolor="red";
+		x.style.border="2px solid black";
+		x.style.width="180px";
+		x.style.height="220px";
+	}
+		 function mOut(){
+		x.style.backgroundcolor="darkgrey";
+		x.style.border="2px solid black";
+		x.style.width="180px";
+		x.style.height="220px";
+	}
+	</script>
+</body>
+</html>
